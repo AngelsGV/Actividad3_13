@@ -29,11 +29,11 @@ public class Actividad3_13{
             } while (nota > 10);
 
             if (nota == 4) {
-                condicionados++;
+                condicionados++;//Se incrementa el contador en 1.
             } else if (nota >= 5) {
-                aprobados++;
-            } else {
-                suspensos++;
+                aprobados++;//Se incrementa el contador en 1.
+            } else { //poner else if (nota<4) sería redundante.
+                suspensos++;//Se incrementa el contador en 1.
             }
         }
         System.out.println("Han aprobado: " + aprobados);
