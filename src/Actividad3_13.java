@@ -32,7 +32,7 @@ public class Actividad3_13{
                 condicionados++;
             } else if (nota >= 5) {
                 aprobados++;
-            } else if (nota < 4) {
+            } else {
                 suspensos++;
             }
         }
